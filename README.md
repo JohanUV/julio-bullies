@@ -46,7 +46,6 @@ Como ModuForm: subir la carpeta a un repo de GitHub e importarlo en Vercel (ya i
 
 ## Logo
 
-El logo (`img/logo/`) sigue el estilo de sambakennels.com: Ramón Dino ilustrado sobre un brochazo con la bandera de Ecuador y el nombre en letras pesadas.
-Se generó a partir de la foto frontal: fondo eliminado con `rembg`, estilizada con Pillow (colores planos + contorno blanco) y compuesta en
-`design/logo/logo.html`. Para regenerarlo, abrir ese HTML en el navegador con `?v=v` (vertical), `?v=h` (horizontal) o `?v=m` (isotipo)
-y capturarlo con fondo transparente. El nombre "JULIUSPITKENNEL" es el definitivo (igual que el Instagram @juliuspitkennel); el criadero está en Ecuador.
+El logo definitivo lo entregó Julio (`design/logo/juliuspitkennel-logo-original.png`, fondo negro). En `img/logo/` está recortado
+en círculo con fondo transparente (`juliuspitkennel-logo.png`) y en versiones pequeñas para el menú, el avatar del chat, el favicon
+y la imagen para compartir (`og.jpg`). El generador anterior (`design/logo/logo.html`) queda solo como referencia.
