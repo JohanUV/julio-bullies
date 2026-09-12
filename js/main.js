@@ -113,22 +113,42 @@ const PESO_KG = "45";
     }, { threshold: .25 });
     inlineVideos.forEach((v) => vo.observe(v));
   }
-  function openVideo(src) {
+  /* Música de fondo (YouTube) para los videos que la declaran en data-music */
+  let yt = null, ytReady = false, ytPending = null;
+  function ensureYT() {
+    if (window.YT && window.YT.Player) { ytReady = true; return; }
+    if (document.getElementById("yt-api")) return;
+    const s = document.createElement("script"); s.id = "yt-api"; s.src = "https://www.youtube.com/iframe_api"; document.head.appendChild(s);
+    window.onYouTubeIframeAPIReady = () => { ytReady = true; if (ytPending) { playMusic(ytPending.id, ytPending.start); ytPending = null; } };
+  }
+  function playMusic(id, start) {
+    ensureYT();
+    if (!ytReady) { ytPending = { id: id, start: start }; return; }
+    const seek = () => { yt.seekTo(start, true); yt.playVideo(); };
+    if (yt) { yt.loadVideoById({ videoId: id, startSeconds: start }); yt.setVolume(70); return; }
+    yt = new YT.Player("ytplayer", { videoId: id, playerVars: { start: start, autoplay: 1, controls: 0, disablekb: 1, playsinline: 1 },
+      events: { onReady: (e) => { e.target.setVolume(70); seek(); }, onStateChange: (e) => { if (e.data === YT.PlayerState.ENDED) seek(); } } });
+  }
+  function stopMusic() { if (yt && yt.stopVideo) { try { yt.stopVideo(); } catch (e) {} } ytPending = null; }
+  function openVideo(src, music, start) {
     inlineVideos.forEach((v) => v.pause());
-    vbig.src = src; vbig.muted = false;
+    vbig.src = src; vbig.loop = true; vbig.muted = !!music;
     vmodal.hidden = false; document.body.classList.add("has-lightbox");
     vbig.play().catch(() => {});
+    if (music) playMusic(music, start || 0);
     $(".vmodal__close").focus();
   }
   function closeVideo() {
+    stopMusic();
     vbig.pause(); vbig.removeAttribute("src"); vbig.load();
     vmodal.hidden = true; document.body.classList.remove("has-lightbox");
     inlineVideos.forEach((v) => v.play().catch(() => {}));
   }
   $$(".vcard").forEach((card) => {
-    const src = $("video", card).getAttribute("src");
-    $("video", card).addEventListener("click", () => openVideo(src));
-    $(".vcard__open", card).addEventListener("click", () => openVideo(src));
+    const v = $("video", card);
+    const src = v.getAttribute("src"), music = v.dataset.music || "", start = Number(v.dataset.musicStart || 0);
+    v.addEventListener("click", () => openVideo(src, music, start));
+    $(".vcard__open", card).addEventListener("click", () => openVideo(src, music, start));
   });
   $(".vmodal__close").addEventListener("click", closeVideo);
   vmodal.addEventListener("click", (e) => { if (e.target === vmodal) closeVideo(); });

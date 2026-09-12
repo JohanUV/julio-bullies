@@ -19,7 +19,7 @@ window.I18N = {
     "stud.btn1": "Consultar monta", "stud.btn2": "Verlo en video",
     "gal.c7": "Mejor de la Raza · Pichincha Bully Fest 2026", "gal.c9": "En el ring", "gal.c11": "Pose de exposición", "gal.c12": "Cabeza", "hero.pill3": "Mejor de la Raza 2026", "stat.title": "Título", "stat.titlev": "Mejor de la Raza · Pichincha Bully Fest 2026, Quito", "mq.title": "Mejor de la Raza 2026 <i>✦</i>", "gal.pill": "Fotos", "gal.title": "Ramón Dino <em>de cerca</em>", "gal.p": "Cabeza, hueso, pecho y estructura. Toca una foto para verla completa.",
     "gal.c1": "Cabeza y expresión", "gal.c2": "Perfil y línea superior", "gal.c3": "Estructura", "gal.c4": "Primer plano", "gal.c5": "Retrato", "gal.c6": "Hueso y pecho",
-    "vid.pill": "Videos", "vid.title": "Míralo <em>caminar</em>", "vid.p": "Las fotos muestran el tipo; el movimiento muestra la estructura. Toca un video para verlo en grande y con sonido.", "vid.open": "Ver con sonido", "vid.c1": "Caminando", "vid.c2": "Estructura en movimiento",
+    "vid.pill": "Videos", "vid.title": "Míralo <em>caminar</em>", "vid.p": "Las fotos muestran el tipo; el movimiento muestra la estructura. Toca un video para verlo en grande y con sonido.", "vid.open": "Ver con sonido", "vid.open1": "Ver con música", "vid.c1": "Caminando", "vid.c2": "Estructura en movimiento",
     "pair.pill": "Próximo cruce", "pair.title": "La <em>pareja</em>", "pair.p": "Brazilian Bully × American Bully. Dos líneas que se complementan en cabeza, hueso y temperamento.",
     "pair.male": "Macho", "pair.female": "Hembra", "pair.femaleName": "La hembra", "pair.soon": "Fotos próximamente",
     "pup.pill": "Cachorros", "pup.title": "Muy <em>pronto</em>",
@@ -28,7 +28,7 @@ window.I18N = {
     "ct.pill": "Contacto", "ct.title": "Escríbenos por <em>WhatsApp</em>", "ct.p": "Preguntas sobre Ramón Dino, montas o la próxima camada. Respondemos directo desde el criadero, en Ecuador.", "ct.btn": "Abrir WhatsApp", "ct.social": "Síguenos",
     "ph.status": "en línea",
     "ph.b1": "Hola, vi a Ramón Dino en la web 🔥<time>10:24</time>", "ph.b2": "¡Hola! Claro, ¿qué te gustaría saber?<time>10:25</time>",
-    "ph.b3": "Quiero entrar en la lista para los cachorros<time>10:25</time>", "ph.b4": "Perfecto, te aviso apenas nazcan 🐾<time>10:26</time>", "ph.input": "Escribe un mensaje",
+    "ph.b3": "Quiero entrar en la lista para los cachorros<time>10:25</time>", "ph.b4": "Perfecto, te aviso apenas nazcan 🐾<time>10:26</time>", "ph.input": "Escribe un mensaje", "ph.chip": "Respuesta directa de Julio",
     "ft.tag": "Brazilian Bully · Ecuador",
     "wa.msg": "Hola Julio, vi la web de Ramón Dino y quiero información."
   },
@@ -48,7 +48,7 @@ window.I18N = {
     "stud.btn1": "Ask about stud service", "stud.btn2": "See him on video",
     "gal.c7": "Best of Breed · Pichincha Bully Fest 2026", "gal.c9": "In the ring", "gal.c11": "Show stack", "gal.c12": "Head", "hero.pill3": "Best of Breed 2026", "stat.title": "Title", "stat.titlev": "Best of Breed · Pichincha Bully Fest 2026, Quito", "mq.title": "Best of Breed 2026 <i>✦</i>", "gal.pill": "Photos", "gal.title": "Ramón Dino <em>up close</em>", "gal.p": "Head, bone, chest and structure. Tap a photo to see it in full.",
     "gal.c1": "Head and expression", "gal.c2": "Side view and topline", "gal.c3": "Structure", "gal.c4": "Close-up", "gal.c5": "Portrait", "gal.c6": "Bone and chest",
-    "vid.pill": "Videos", "vid.title": "Watch him <em>move</em>", "vid.p": "Photos show type; movement shows structure. Tap a video to watch it full size with sound.", "vid.open": "Watch with sound", "vid.c1": "On the walk", "vid.c2": "Structure in motion",
+    "vid.pill": "Videos", "vid.title": "Watch him <em>move</em>", "vid.p": "Photos show type; movement shows structure. Tap a video to watch it full size with sound.", "vid.open": "Watch with sound", "vid.open1": "Watch with music", "vid.c1": "On the walk", "vid.c2": "Structure in motion",
     "pair.pill": "Upcoming breeding", "pair.title": "The <em>pair</em>", "pair.p": "Brazilian Bully × American Bully. Two lines that complement each other in head, bone and temperament.",
     "pair.male": "Male", "pair.female": "Female", "pair.femaleName": "The female", "pair.soon": "Photos coming soon",
     "pup.pill": "Puppies", "pup.title": "Coming <em>soon</em>",
@@ -57,7 +57,7 @@ window.I18N = {
     "ct.pill": "Contact", "ct.title": "Message us on <em>WhatsApp</em>", "ct.p": "Questions about Ramón Dino, stud service or the upcoming litter. We reply directly from the kennel, in Ecuador.", "ct.btn": "Open WhatsApp", "ct.social": "Follow us",
     "ph.status": "online",
     "ph.b1": "Hi, I saw Ramón Dino on the website 🔥<time>10:24</time>", "ph.b2": "Hey! Sure, what would you like to know?<time>10:25</time>",
-    "ph.b3": "I want to join the list for the puppies<time>10:25</time>", "ph.b4": "Perfect, I'll let you know as soon as they're born 🐾<time>10:26</time>", "ph.input": "Type a message",
+    "ph.b3": "I want to join the list for the puppies<time>10:25</time>", "ph.b4": "Perfect, I'll let you know as soon as they're born 🐾<time>10:26</time>", "ph.input": "Type a message", "ph.chip": "Direct reply from Julio",
     "ft.tag": "Brazilian Bully · Ecuador",
     "wa.msg": "Hi Julio, I saw Ramón Dino's website and I'd like more information."
   },
@@ -77,7 +77,7 @@ window.I18N = {
     "stud.btn1": "Consultar cobertura", "stud.btn2": "Ver em vídeo",
     "gal.c7": "Melhor da Raça · Pichincha Bully Fest 2026", "gal.c9": "No ringue", "gal.c11": "Pose de exposição", "gal.c12": "Cabeça", "hero.pill3": "Melhor da Raça 2026", "stat.title": "Título", "stat.titlev": "Melhor da Raça · Pichincha Bully Fest 2026, Quito", "mq.title": "Melhor da Raça 2026 <i>✦</i>", "gal.pill": "Fotos", "gal.title": "Ramón Dino <em>de perto</em>", "gal.p": "Cabeça, osso, peito e estrutura. Toque em uma foto para vê-la inteira.",
     "gal.c1": "Cabeça e expressão", "gal.c2": "Perfil e linha superior", "gal.c3": "Estrutura", "gal.c4": "Close", "gal.c5": "Retrato", "gal.c6": "Osso e peito",
-    "vid.pill": "Vídeos", "vid.title": "Veja ele <em>andar</em>", "vid.p": "As fotos mostram o tipo; o movimento mostra a estrutura. Toque em um vídeo para vê-lo em tela grande e com som.", "vid.open": "Ver com som", "vid.c1": "No passeio", "vid.c2": "Estrutura em movimento",
+    "vid.pill": "Vídeos", "vid.title": "Veja ele <em>andar</em>", "vid.p": "As fotos mostram o tipo; o movimento mostra a estrutura. Toque em um vídeo para vê-lo em tela grande e com som.", "vid.open": "Ver com som", "vid.open1": "Ver com música", "vid.c1": "No passeio", "vid.c2": "Estrutura em movimento",
     "pair.pill": "Próximo cruzamento", "pair.title": "O <em>casal</em>", "pair.p": "Brazilian Bully × American Bully. Duas linhagens que se complementam em cabeça, osso e temperamento.",
     "pair.male": "Macho", "pair.female": "Fêmea", "pair.femaleName": "A fêmea", "pair.soon": "Fotos em breve",
     "pup.pill": "Filhotes", "pup.title": "Em <em>breve</em>",
@@ -86,7 +86,7 @@ window.I18N = {
     "ct.pill": "Contato", "ct.title": "Fale conosco pelo <em>WhatsApp</em>", "ct.p": "Dúvidas sobre o Ramón Dino, cobertura ou a próxima ninhada. Respondemos direto do canil, no Equador.", "ct.btn": "Abrir WhatsApp", "ct.social": "Síguenos",
     "ph.status": "online",
     "ph.b1": "Oi, vi o Ramón Dino no site 🔥<time>10:24</time>", "ph.b2": "Oi! Claro, o que você gostaria de saber?<time>10:25</time>",
-    "ph.b3": "Quero entrar na lista para os filhotes<time>10:25</time>", "ph.b4": "Perfeito, te aviso assim que nascerem 🐾<time>10:26</time>", "ph.input": "Digite uma mensagem",
+    "ph.b3": "Quero entrar na lista para os filhotes<time>10:25</time>", "ph.b4": "Perfeito, te aviso assim que nascerem 🐾<time>10:26</time>", "ph.input": "Digite uma mensagem", "ph.chip": "Resposta direta do Julio",
     "ft.tag": "Brazilian Bully · Equador",
     "wa.msg": "Olá Julio, vi o site do Ramón Dino e quero mais informações."
   }
