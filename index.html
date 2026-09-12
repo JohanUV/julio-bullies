@@ -158,17 +158,17 @@
     <div class="section__head reveal">
       <span class="pill" data-i18n="vid.pill">Videos</span>
       <h2 data-i18n="vid.title">Míralo <em>caminar</em></h2>
-      <p data-i18n="vid.p">Las fotos muestran el tipo; el movimiento muestra la estructura. Toca un video para verlo en grande con música.</p>
+      <p data-i18n="vid.p">Las fotos muestran el tipo; el movimiento muestra la estructura. Toca el altavoz para escuchar la música, o el video para verlo en grande.</p>
     </div>
     <div class="reel">
       <figure class="vcard reveal">
         <video src="video/ramon-paseo-1.mp4" poster="video/ramon-paseo-1.jpg" preload="metadata" autoplay muted loop playsinline data-music="3tbZGHl5rQ4" data-music-start="5"></video>
-        <button class="vcard__open" type="button" aria-label="Ver en grande"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg><span data-i18n="vid.open1">Ver con música</span></button>
+        <button class="vcard__sound" type="button" aria-pressed="false"><svg class="ic-off" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3Zm13.5 3 2.5-2.5-1.4-1.4L15 10.6l-2.6-2.5L11 9.5l2.5 2.5L11 14.5l1.4 1.4 2.6-2.5 2.6 2.5 1.4-1.4L16.5 12Z"/></svg><svg class="ic-on" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3Zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4Zm-2.5-9v2.1a7 7 0 0 1 0 13.8V21a9 9 0 0 0 0-18Z"/></svg><span class="t-off" data-i18n="vid.sound">Escuchar</span><span class="t-on" data-i18n="vid.mute">Silenciar</span></button>
         <figcaption data-i18n="vid.c1">Caminando</figcaption>
       </figure>
       <figure class="vcard reveal" data-delay="1">
         <video src="video/ramon-paseo-2.mp4" poster="video/ramon-paseo-2.jpg" preload="metadata" autoplay muted loop playsinline data-music="vgTnkP9YCOA" data-music-start="14"></video>
-        <button class="vcard__open" type="button" aria-label="Ver en grande"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg><span data-i18n="vid.open1">Ver con música</span></button>
+        <button class="vcard__sound" type="button" aria-pressed="false"><svg class="ic-off" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3Zm13.5 3 2.5-2.5-1.4-1.4L15 10.6l-2.6-2.5L11 9.5l2.5 2.5L11 14.5l1.4 1.4 2.6-2.5 2.6 2.5 1.4-1.4L16.5 12Z"/></svg><svg class="ic-on" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3Zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4Zm-2.5-9v2.1a7 7 0 0 1 0 13.8V21a9 9 0 0 0 0-18Z"/></svg><span class="t-off" data-i18n="vid.sound">Escuchar</span><span class="t-on" data-i18n="vid.mute">Silenciar</span></button>
         <figcaption data-i18n="vid.c2">Estructura en movimiento</figcaption>
       </figure>
     </div>
@@ -266,10 +266,12 @@
   <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Siguiente">›</button>
 </div>
 
+<div class="ytbox" id="ytplayer" aria-hidden="true"></div>
+
 <div class="vmodal" id="vmodal" hidden role="dialog" aria-modal="true" aria-label="Video">
   <button class="vmodal__close" type="button" aria-label="Cerrar">×</button>
   <video controls playsinline></video>
-  <div class="vmodal__music" id="ytplayer" aria-hidden="true"></div>
+  
 </div>
 
 <script src="js/i18n.js"></script>

@@ -139,17 +139,32 @@ const PESO_KG = "45";
     $(".vmodal__close").focus();
   }
   function closeVideo() {
-    stopMusic();
+    stopMusic(); soundCard = null; $$(".vcard__sound").forEach((b) => b.setAttribute("aria-pressed", "false"));
     vbig.pause(); vbig.removeAttribute("src"); vbig.load();
     vmodal.hidden = true; document.body.classList.remove("has-lightbox");
     inlineVideos.forEach((v) => v.play().catch(() => {}));
   }
+  /* Botón de altavoz: música en la tarjeta sin abrir el video */
+  let soundCard = null;
+  function setSound(card, on) {
+    $$(".vcard").forEach((c) => $(".vcard__sound", c).setAttribute("aria-pressed", String(on && c === card)));
+    soundCard = on ? card : null;
+    if (!on) { stopMusic(); return; }
+    const v = $("video", card);
+    v.currentTime = 0; v.play().catch(() => {});
+    playMusic(v.dataset.music, Number(v.dataset.musicStart || 0));
+  }
   $$(".vcard").forEach((card) => {
     const v = $("video", card);
     const src = v.getAttribute("src"), music = v.dataset.music || "", start = Number(v.dataset.musicStart || 0);
-    v.addEventListener("click", () => openVideo(src, music, start));
-    $(".vcard__open", card).addEventListener("click", () => openVideo(src, music, start));
+    v.addEventListener("click", () => { setSound(null, false); openVideo(src, music, start); });
+    $(".vcard__sound", card).addEventListener("click", (e) => { e.stopPropagation(); setSound(card, soundCard !== card); });
   });
+  /* Si la tarjeta con música sale de pantalla, se silencia */
+  if ("IntersectionObserver" in window) {
+    const so = new IntersectionObserver((entries) => { entries.forEach((en) => { if (!en.isIntersecting && soundCard === en.target) setSound(null, false); }); }, { threshold: 0 });
+    $$(".vcard").forEach((card) => so.observe(card));
+  }
   $(".vmodal__close").addEventListener("click", closeVideo);
   vmodal.addEventListener("click", (e) => { if (e.target === vmodal) closeVideo(); });
 
