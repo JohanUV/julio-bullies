@@ -3,7 +3,7 @@
    - WHATSAPP: código de país + número, sin espacios ni "+". Ej.: "593991234567".
    - PESO_KG: peso de Ramón Dino en kilos. Ej.: "38". Déjalo vacío para mostrar "—". */
 
-const WHATSAPP = "";
+const WHATSAPP = "593984677887";
 const PESO_KG = "45";
 
 (function () {

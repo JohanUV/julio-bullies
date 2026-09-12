@@ -21,8 +21,7 @@ criadero-web/
 
 Todo lo que falta se completa en `js/main.js`, en las dos primeras constantes:
 
-1. **`WHATSAPP`**: número de Julio con código de país, sin `+` ni espacios (ej. `593991234567`).
-   Mientras esté vacío, los botones de WhatsApp solo bajan a la sección de contacto.
+1. **`WHATSAPP`**: ya está configurado con el número de Julio, `593984677887` (+593 98 467 7887).
 2. **`PESO_KG`**: ya está en `45`. Cámbialo ahí si el peso varía.
 
 Otros pendientes a confirmar con Julio:
