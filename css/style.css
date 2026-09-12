@@ -61,6 +61,10 @@ h1 .accent, h2 .accent { color: var(--accent); }
 .pill { display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line-2); background: rgba(255,255,255,.04);
   font-size: 12.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 .pill::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent); }
+.pill--gold { border-color: #e6b64a; color: #ffd66b; background: rgba(230,182,74,.1); }
+.pill--gold::before { background: #ffd66b; box-shadow: 0 0 10px #ffd66b; }
+.spec--gold { border-color: rgba(230,182,74,.45); background: linear-gradient(135deg, rgba(230,182,74,.14), rgba(230,182,74,.03)); }
+.spec--gold .spec__v { color: #ffd66b; }
 .pill--accent { border-color: var(--accent); color: var(--accent); background: rgba(255,122,26,.08); }
 .lead { font-size: clamp(17px, 1.5vw, 20px); color: var(--muted); max-width: 36em; }
 .section { padding: var(--section) 0; position: relative; z-index: 2; }
