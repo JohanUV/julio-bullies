@@ -1,7 +1,7 @@
 # Julio Bullies — sitio web del criadero
 
 Sitio estático (HTML + CSS + JS, sin frameworks) para el criadero de Julio. Presenta a **Ramón Dino**
-(macho Brazilian Bully), el próximo cruce con la hembra American Bully y la sección de cachorros "próximamente".
+(macho Brazilian Bully) y la sección de cachorros "próximamente".
 Está en **español, inglés y portugués**: el selector ES / EN / PT del menú cambia todos los textos sin recargar.
 
 ## Estructura
@@ -26,8 +26,8 @@ Todo lo que falta se completa en `js/main.js`, en las dos primeras constantes:
 
 Otros pendientes a confirmar con Julio:
 
-- **La hembra.** No había fotos ni nombre; su tarjeta muestra "Fotos próximamente". Cuando lleguen, reemplazar
-  la tarjeta `pcard--soon` en `index.html` por una igual a la de Ramón Dino y agregar el nombre en `js/i18n.js` (`pair.femaleName`).
+- **Sin sección de cruce.** Julio pidió no mostrar el cruce con la hembra American Bully (razas distintas). La sección
+  "La pareja" se eliminó; los estilos `.pair`/`.pcard` siguen en el CSS por si se quiere presentar a la hembra por separado.
 - **Temperamento.** El texto es genérico; ajustarlo con lo que diga Julio.
 - **Redes sociales.** Si tiene Instagram o Facebook, agregarlas al `<footer>`.
 
