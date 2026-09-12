@@ -10,22 +10,19 @@
   .word{position:absolute;text-align:center;line-height:.86;white-space:nowrap}
   .julio{font-family:"Anton",Impact,sans-serif;color:#f6f1ea;letter-spacing:.02em;
     text-shadow:0 6px 0 #3a1f10, 0 8px 24px rgba(0,0,0,.5)}
-  .bullies{font-family:"Bebas Neue",Impact,sans-serif;color:#ff7a1a;letter-spacing:.28em;margin-left:.28em;
-    text-shadow:0 4px 0 #3a1f10, 0 6px 18px rgba(0,0,0,.5)}
+  .bullies{color:#ff7a1a}
   /* vertical 1600x1800 */
   .v .board{width:1600px;height:1800px}
   .v .mark{left:100px;top:40px;width:1400px;height:1180px}
   .v .mark img{height:1150px;left:50%;top:40px;transform:translateX(-50%)}
-  .v .word{left:0;right:0;top:1215px}
-  .v .julio{font-size:360px}
-  .v .bullies{font-size:170px;margin-top:6px}
+  .v .word{left:0;right:0;top:1250px}
+  .v .julio{font-size:196px;letter-spacing:.01em}
   /* horizontal 2400x900 */
-  .h .board{width:2400px;height:900px}
   .h .mark{left:40px;top:20px;width:1000px;height:860px}
   .h .mark img{height:840px;left:50%;top:14px;transform:translateX(-50%)}
-  .h .word{left:1030px;right:40px;top:110px;text-align:left}
-  .h .julio{font-size:410px}
-  .h .bullies{font-size:200px;margin-top:8px}
+  .h .board{width:3000px;height:900px}
+  .h .word{left:1030px;right:30px;top:330px;text-align:left}
+  .h .julio{font-size:250px;letter-spacing:.01em}
   /* mark 1400x1400 */
   .m .board{width:1400px;height:1400px}
   .m .mark{left:0;top:0;width:1400px;height:1400px}
@@ -69,7 +66,7 @@
     </svg>
     <img src="dog-frontal.png" alt="">
   </div>
-  <div class="word"><div class="julio">JULIO</div><div class="bullies">BULLIES</div></div>
+  <div class="word"><div class="julio">JULIUS<span class="bullies">PITKENNEL</span></div></div>
 </div>
 <script>document.body.className = new URLSearchParams(location.search).get("v") || "v";</script>
 </body></html>

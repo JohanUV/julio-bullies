@@ -1,4 +1,4 @@
-# Julio Bullies — sitio web del criadero
+# JULIUSPITKENNEL — sitio web del criadero
 
 Sitio estático (HTML + CSS + JS, sin frameworks) para el criadero de Julio. Presenta a **Ramón Dino**
 (macho Brazilian Bully) y la sección de cachorros "próximamente".
@@ -49,4 +49,4 @@ Como ModuForm: subir la carpeta a un repo de GitHub e importarlo en Vercel (ya i
 El logo (`img/logo/`) sigue el estilo de sambakennels.com: Ramón Dino ilustrado sobre un brochazo con la bandera de Ecuador y el nombre en letras pesadas.
 Se generó a partir de la foto frontal: fondo eliminado con `rembg`, estilizada con Pillow (colores planos + contorno blanco) y compuesta en
 `design/logo/logo.html`. Para regenerarlo, abrir ese HTML en el navegador con `?v=v` (vertical), `?v=h` (horizontal) o `?v=m` (isotipo)
-y capturarlo con fondo transparente. El nombre "Julio Bullies" es definitivo; el criadero está en Ecuador.
+y capturarlo con fondo transparente. El nombre "JULIUSPITKENNEL" es el definitivo (igual que el Instagram @juliuspitkennel); el criadero está en Ecuador.

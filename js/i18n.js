@@ -4,7 +4,7 @@
 
 window.I18N = {
   es: {
-    "meta.title": "Julio Bullies | Ramón Dino, Brazilian Bully",
+    "meta.title": "JULIUSPITKENNEL | Ramón Dino, Brazilian Bully",
     "meta.desc": "Criadero de bullies en Ecuador. Conoce a Ramón Dino, nuestro macho Brazilian Bully. Cachorros próximamente.",
     "skip": "Ir al contenido",
     "nav.stud": "El macho", "nav.gallery": "Galería", "nav.video": "Video", "nav.pair": "Cruce", "nav.puppies": "Cachorros", "nav.contact": "Contacto", "nav.cta": "WhatsApp",
@@ -25,7 +25,7 @@ window.I18N = {
     "pup.pill": "Cachorros", "pup.title": "Muy <em>pronto</em>",
     "pup.p": "Estamos preparando la próxima camada de Ramón Dino. Escríbenos por WhatsApp para entrar en la lista de espera y recibir aviso cuando nazcan.",
     "pup.s1": "Escríbenos por WhatsApp", "pup.s2": "Entras a la lista de espera", "pup.s3": "Te avisamos al nacer, con fotos y video", "pup.btn": "Quiero que me avisen",
-    "ct.pill": "Contacto", "ct.title": "Escríbenos por <em>WhatsApp</em>", "ct.p": "Preguntas sobre Ramón Dino, montas o la próxima camada. Respondemos directo desde el criadero, en Ecuador.", "ct.btn": "Abrir WhatsApp",
+    "ct.pill": "Contacto", "ct.title": "Escríbenos por <em>WhatsApp</em>", "ct.p": "Preguntas sobre Ramón Dino, montas o la próxima camada. Respondemos directo desde el criadero, en Ecuador.", "ct.btn": "Abrir WhatsApp", "ct.social": "Síguenos",
     "ph.status": "en línea",
     "ph.b1": "Hola, vi a Ramón Dino en la web 🔥<time>10:24</time>", "ph.b2": "¡Hola! Claro, ¿qué te gustaría saber?<time>10:25</time>",
     "ph.b3": "Quiero entrar en la lista para los cachorros<time>10:25</time>", "ph.b4": "Perfecto, te aviso apenas nazcan 🐾<time>10:26</time>", "ph.input": "Escribe un mensaje",
@@ -33,7 +33,7 @@ window.I18N = {
     "wa.msg": "Hola Julio, vi la web de Ramón Dino y quiero información."
   },
   en: {
-    "meta.title": "Julio Bullies | Ramón Dino, Brazilian Bully",
+    "meta.title": "JULIUSPITKENNEL | Ramón Dino, Brazilian Bully",
     "meta.desc": "Bully kennel in Ecuador. Meet Ramón Dino, our Brazilian Bully stud. Puppies coming soon.",
     "skip": "Skip to content",
     "nav.stud": "The stud", "nav.gallery": "Gallery", "nav.video": "Video", "nav.pair": "Breeding", "nav.puppies": "Puppies", "nav.contact": "Contact", "nav.cta": "WhatsApp",
@@ -54,7 +54,7 @@ window.I18N = {
     "pup.pill": "Puppies", "pup.title": "Coming <em>soon</em>",
     "pup.p": "We are preparing Ramón Dino's next litter. Message us on WhatsApp to join the waiting list and get notified when they are born.",
     "pup.s1": "Message us on WhatsApp", "pup.s2": "You join the waiting list", "pup.s3": "We notify you at birth, with photos and video", "pup.btn": "Notify me",
-    "ct.pill": "Contact", "ct.title": "Message us on <em>WhatsApp</em>", "ct.p": "Questions about Ramón Dino, stud service or the upcoming litter. We reply directly from the kennel, in Ecuador.", "ct.btn": "Open WhatsApp",
+    "ct.pill": "Contact", "ct.title": "Message us on <em>WhatsApp</em>", "ct.p": "Questions about Ramón Dino, stud service or the upcoming litter. We reply directly from the kennel, in Ecuador.", "ct.btn": "Open WhatsApp", "ct.social": "Follow us",
     "ph.status": "online",
     "ph.b1": "Hi, I saw Ramón Dino on the website 🔥<time>10:24</time>", "ph.b2": "Hey! Sure, what would you like to know?<time>10:25</time>",
     "ph.b3": "I want to join the list for the puppies<time>10:25</time>", "ph.b4": "Perfect, I'll let you know as soon as they're born 🐾<time>10:26</time>", "ph.input": "Type a message",
@@ -62,7 +62,7 @@ window.I18N = {
     "wa.msg": "Hi Julio, I saw Ramón Dino's website and I'd like more information."
   },
   pt: {
-    "meta.title": "Julio Bullies | Ramón Dino, Brazilian Bully",
+    "meta.title": "JULIUSPITKENNEL | Ramón Dino, Brazilian Bully",
     "meta.desc": "Canil de bullies no Equador. Conheça o Ramón Dino, nosso macho Brazilian Bully. Filhotes em breve.",
     "skip": "Ir para o conteúdo",
     "nav.stud": "O macho", "nav.gallery": "Galeria", "nav.video": "Vídeo", "nav.pair": "Cruzamento", "nav.puppies": "Filhotes", "nav.contact": "Contato", "nav.cta": "WhatsApp",
@@ -83,7 +83,7 @@ window.I18N = {
     "pup.pill": "Filhotes", "pup.title": "Em <em>breve</em>",
     "pup.p": "Estamos preparando a próxima ninhada do Ramón Dino. Fale conosco pelo WhatsApp para entrar na lista de espera e ser avisado quando nascerem.",
     "pup.s1": "Fale conosco pelo WhatsApp", "pup.s2": "Você entra na lista de espera", "pup.s3": "Avisamos ao nascer, com fotos e vídeo", "pup.btn": "Quero ser avisado",
-    "ct.pill": "Contato", "ct.title": "Fale conosco pelo <em>WhatsApp</em>", "ct.p": "Dúvidas sobre o Ramón Dino, cobertura ou a próxima ninhada. Respondemos direto do canil, no Equador.", "ct.btn": "Abrir WhatsApp",
+    "ct.pill": "Contato", "ct.title": "Fale conosco pelo <em>WhatsApp</em>", "ct.p": "Dúvidas sobre o Ramón Dino, cobertura ou a próxima ninhada. Respondemos direto do canil, no Equador.", "ct.btn": "Abrir WhatsApp", "ct.social": "Síguenos",
     "ph.status": "online",
     "ph.b1": "Oi, vi o Ramón Dino no site 🔥<time>10:24</time>", "ph.b2": "Oi! Claro, o que você gostaria de saber?<time>10:25</time>",
     "ph.b3": "Quero entrar na lista para os filhotes<time>10:25</time>", "ph.b4": "Perfeito, te aviso assim que nascerem 🐾<time>10:26</time>", "ph.input": "Digite uma mensagem",
